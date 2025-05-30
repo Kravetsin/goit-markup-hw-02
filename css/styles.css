@@ -1,3 +1,4 @@
+/* INHERIT */
 body{
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -102,13 +103,15 @@ p{
     transition: .3s ease;
 }
 
+/* BENEFITS */
+
 /* OUR TEAM */
-.team-list img {
+.team-list .team-card {
     width: 264px;
 }
 
 /* OUR PORTFOLIO */
-.portfolio img{
+.portfolio .project-card{
     width: 360px;
 }
 
