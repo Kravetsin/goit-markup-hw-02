@@ -3,9 +3,16 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* !Header */
-.top-line .page-nav .logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -14,46 +21,49 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.top-line .page-nav .web-logo {
+.top-line .span-logo {
   color: #2e2f42;
 }
-.top-line .nav-list .nav-link .link {
+.end-page .span-logo {
+  color: #f4f4fd;
+}
+.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.top-line .nav-list .nav-link .link:hover,
-.top-line .nav-list .nav-link:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
-.top-line .contacts {
+.contacts {
   font-style: normal;
 }
-.top-line .contacts .contacts-list .contacts-link .link {
+.contacts-link .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.top-line .contacts .contacts-list .contacts-link .link:hover,
-.top-line .contacts .contacts-list .contacts-link .link:focus {
+.contacts-link .link:hover,
+.contacts-link .link:focus {
   color: #404bbf;
 }
 
 /* !Order section */
-.order {
+.order, .end-page {
   background-color: #2e2f42;
 }
-.order .title {
+.title {
   font-size: 56px;
   line-height: 56px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.order .order-button {
+.order-button {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -63,9 +73,43 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-.order .order-button:hover,
-.order .order-button:focus {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 
 /* !Benefits */
+.section-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.page-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* !Our Team */
+.our-team {
+  background-color: #f4f4fd;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-card {
+  background-color: #ffffff;
+}
+
+/* !Footer */
+.end-page .page-text{
+    color: #f4f4fd;
+}
